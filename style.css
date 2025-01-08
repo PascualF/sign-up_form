@@ -1,0 +1,63 @@
+@font-face{
+    font-family: fontOdin;
+    src: url(/sign_up_form/sign-up_form/fonts/Norse-Bold.otf)
+}
+
+body{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.odin-name{
+    font-family: fontOdin;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.container-right{
+    padding-left: 0;
+    background-color: aliceblue;
+}
+
+.opaque-stripe{
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 300px; 
+    width: 35vw;
+    display: flex;
+}
+
+form{
+    background-color: white;
+    margin: 0;
+}
+
+.image-bckg {
+    position: relative;
+    display: inline;
+}
+
+.image-bckg .image-leafs{
+    width: 35vw;
+}
+
+.log-in-span{
+    color: darkgreen;
+}
+
+.odin-name{
+    color: white;
+}
+
+
+.logo{
+    height: 5rem;
+    margin-left: 120px;
+}
